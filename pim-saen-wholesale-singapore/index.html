@@ -38,6 +38,20 @@
   text-transform:uppercase; text-decoration:none; border:2px solid var(--ink);
   border-radius:100px; padding:.42rem .9rem; transition:background-color .2s,color .2s; }
 .others a:hover{ background:var(--ink); color:var(--cream); }
+.faq{ margin-top:clamp(2.5rem,5vw,4rem); }
+.faq h2{ font-size:clamp(1.5rem,3vw,2.1rem); margin-bottom:1.4rem; }
+.qa{ background:var(--white); border:3px solid var(--ink); border-left-width:9px;
+  border-left-color:var(--red); padding:1.1rem 1.2rem; margin-bottom:.8rem; }
+.qa:nth-child(3){ border-left-color:var(--teal); }
+.qa:nth-child(4){ border-left-color:var(--green); }
+.qa:nth-child(5){ border-left-color:var(--marigold); }
+.qa h3{ font-size:1.02rem; margin-bottom:.4rem; }
+.qa p{ font-size:.88rem; color:var(--ink-2); line-height:1.62; }
+.nap{ margin-top:2.4rem; padding:1.2rem 1.3rem; background:var(--white);
+  border:3px solid var(--ink); font-size:.87rem; line-height:1.7; }
+.nap b{ font-weight:700; }
+.nap a{ color:var(--red); text-decoration:none; border-bottom:2px solid currentColor; }
+.nap .small{ font-size:.76rem; color:var(--faint); margin-top:.4rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -120,6 +134,66 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Siam Supply Co.",
+        "item": "https://siamsupply.sg/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Pim Saen wholesale",
+        "item": "https://siamsupply.sg/pim-saen-wholesale-singapore/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the minimum order for Pim Saen in Singapore?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "144 pcs. Above the minimum you can top up one supplier pack at a time, which is 12 pieces for this line, so you are never forced to buy a round number that does not suit your shelf."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does delivery take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "About five working days for anything we hold in stock, and up to four weeks for anything we bring in on the next purchase order from Hat Yai. We tell you which applies when we quote, before you commit. Delivery is to your door anywhere in Singapore and the cost is already inside the quoted price."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Pim Saen variants can I order?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "3 SKUs: Pim Saen Balm Roller, Pim Saen balm oil, liquid, Pim Saen cotton-wick inhaler. All are supplied as manufactured and packed in Thailand, with the original Thai FDA registrations and manufacturer labelling intact."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I mix Pim Saen with other lines in one order?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Minimums apply per line, not per order, so you can combine any lines to build one shipment. Build the list on this site and send it in a single WhatsApp message and we quote the whole thing together, with stock status per line."
+        }
+      }
+    ]
+  }
+]
+</script>
 </head>
 <body>
 
@@ -168,7 +242,7 @@
       </div>
       <div class="plate">
         <div class="plate-row">
-          <img src="../assets/cut/th-pim-roller.webp" style="--h:88;--z:2" alt="Pim Saen Balm Roller">
+          <img src="../assets/cut/th-pim-roller.webp" style="--h:88;--z:2" width="100" height="372" alt="Pim Saen Balm Roller" decoding="async">
         </div>
         <p class="plate-foot"><b>Pim Saen Balm</b></p>
       </div>
@@ -189,7 +263,7 @@
     </div>
     <div class="vlist">
           <div class="var" data-sku="TH-Pim-Roller">
-            <span class="vthumb"><img src="../assets/cut/th-pim-roller.webp" alt="Pim Saen Balm Roller" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/th-pim-roller-sm.webp" alt="Pim Saen Balm Roller" width="43" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Pim Saen Balm Roller</b>
               <span class="meta"><span class="sku">TH-Pim-Roller</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -200,7 +274,7 @@
             </span>
           </div>
           <div class="var" data-sku="TH-Pim-Oil">
-            <span class="vthumb"><img src="../assets/cut/th-pim-oil.webp" alt="Pim Saen balm oil, liquid" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/th-pim-oil-sm.webp" alt="Pim Saen balm oil, liquid" width="146" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Pim Saen balm oil, liquid</b>
               <span class="meta"><span class="sku">TH-Pim-Oil</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -211,7 +285,7 @@
             </span>
           </div>
           <div class="var" data-sku="TH-Pim-Cotton">
-            <span class="vthumb"><img src="../assets/cut/th-pim-cotton.webp" alt="Pim Saen cotton-wick inhaler" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/th-pim-cotton-sm.webp" alt="Pim Saen cotton-wick inhaler" width="119" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Pim Saen cotton-wick inhaler</b>
               <span class="meta"><span class="sku">TH-Pim-Cotton</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -224,6 +298,22 @@
     </div>
     <p class="list-note">Trade prices are quoted per piece in Singapore dollars, landed and
     delivered. Payment on delivery as standard, Net 30 for institutional buyers.</p>
+
+    <div class="faq">
+      <h2>Pim Saen trade questions</h2>
+        <div class="qa"><h3>What is the minimum order for Pim Saen in Singapore?</h3><p>144 pcs. Above the minimum you can top up one supplier pack at a time, which is 12 pieces for this line, so you are never forced to buy a round number that does not suit your shelf.</p></div>
+        <div class="qa"><h3>How long does delivery take?</h3><p>About five working days for anything we hold in stock, and up to four weeks for anything we bring in on the next purchase order from Hat Yai. We tell you which applies when we quote, before you commit. Delivery is to your door anywhere in Singapore and the cost is already inside the quoted price.</p></div>
+        <div class="qa"><h3>Which Pim Saen variants can I order?</h3><p>3 SKUs: Pim Saen Balm Roller, Pim Saen balm oil, liquid, Pim Saen cotton-wick inhaler. All are supplied as manufactured and packed in Thailand, with the original Thai FDA registrations and manufacturer labelling intact.</p></div>
+        <div class="qa"><h3>Can I mix Pim Saen with other lines in one order?</h3><p>Yes. Minimums apply per line, not per order, so you can combine any lines to build one shipment. Build the list on this site and send it in a single WhatsApp message and we quote the whole thing together, with stock status per line.</p></div>
+    </div>
+
+    <div class="nap">
+      <p><b>Siam Supply Co.</b>, trading name of Jiratham Pte. Ltd., UEN 202433113G</p>
+      <p>190 Woodlands Industrial Park E5, #03-08, Singapore 757516</p>
+      <p>WhatsApp <a href="https://wa.me/6586115854">+65 8611 5854</a> &nbsp;·&nbsp;
+         <a href="mailto:hlastore88@gmail.com">hlastore88@gmail.com</a></p>
+      <p class="small">Wholesale supply to trade buyers only. Delivered across Singapore.</p>
+    </div>
 
     <p class="crumb" style="margin-top:2.4rem">Other lines</p>
     <div class="others"><a href="../hong-thai-wholesale-singapore/">Hong Thai</a><a href="../poy-sian-wholesale-singapore/">Poy-Sian</a><a href="../siang-pure-wholesale-singapore/">Siang Pure</a><a href="../pastel-x8-wholesale-singapore/">Pastel X8</a><a href="../happy-noz-wholesale-singapore/">Happy Noz</a><a href="../namman-muay-wholesale-singapore/">Namman Muay</a><a href="../gumgig-pean-wholesale-singapore/">Gumgig Pean</a><a href="/#list">Full price list</a></div>
@@ -269,7 +359,7 @@
 <script>
 const SHOW_PRICES = false;
 const WA = "6586115854";
-const PRODUCTS = [{"sku": "TH-Pim-Roller", "cat": "inhalers", "catLabel": "Inhalers & nasal", "line": "Pim Saen", "lineName": "Pim Saen Balm", "lineDesc": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.", "name": "Pim Saen Balm Roller", "desc": "Roll-on balm stick. The cleanest format for a handbag or a school bag.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.60", "img": "assets/cut/th-pim-roller.webp", "iw": 100, "ih": 372, "flag": ""}, {"sku": "TH-Pim-Oil", "cat": "inhalers", "catLabel": "Inhalers & nasal", "line": "Pim Saen", "lineName": "Pim Saen Balm", "lineDesc": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.", "name": "Pim Saen balm oil, liquid", "desc": "The liquid balm oil, twin pack. Apply by hand or dab onto a tissue.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.00", "img": "assets/cut/th-pim-oil.webp", "iw": 298, "ih": 326, "flag": ""}, {"sku": "TH-Pim-Cotton", "cat": "inhalers", "catLabel": "Inhalers & nasal", "line": "Pim Saen", "lineName": "Pim Saen Balm", "lineDesc": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.", "name": "Pim Saen cotton-wick inhaler", "desc": "Cotton-wick inhaler jar. The traditional format and the strongest of the three.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "2.30", "img": "assets/cut/th-pim-cotton.webp", "iw": 208, "ih": 279, "flag": ""}];
+const PRODUCTS = [{"sku": "TH-Pim-Roller", "cat": "inhalers", "catLabel": "Inhalers & nasal", "line": "Pim Saen", "lineName": "Pim Saen Balm", "lineDesc": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.", "name": "Pim Saen Balm Roller", "desc": "Roll-on balm stick. The cleanest format for a handbag or a school bag.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.60", "img": "assets/cut/th-pim-roller.webp", "iw": 100, "ih": 372, "thumb": "assets/cut/th-pim-roller-sm.webp", "tw": 43, "th": 160, "flag": ""}, {"sku": "TH-Pim-Oil", "cat": "inhalers", "catLabel": "Inhalers & nasal", "line": "Pim Saen", "lineName": "Pim Saen Balm", "lineDesc": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.", "name": "Pim Saen balm oil, liquid", "desc": "The liquid balm oil, twin pack. Apply by hand or dab onto a tissue.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.00", "img": "assets/cut/th-pim-oil.webp", "iw": 298, "ih": 326, "thumb": "assets/cut/th-pim-oil-sm.webp", "tw": 146, "th": 160, "flag": ""}, {"sku": "TH-Pim-Cotton", "cat": "inhalers", "catLabel": "Inhalers & nasal", "line": "Pim Saen", "lineName": "Pim Saen Balm", "lineDesc": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.", "name": "Pim Saen cotton-wick inhaler", "desc": "Cotton-wick inhaler jar. The traditional format and the strongest of the three.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "2.30", "img": "assets/cut/th-pim-cotton.webp", "iw": 208, "ih": 279, "thumb": "assets/cut/th-pim-cotton-sm.webp", "tw": 119, "th": 160, "flag": ""}];
 </script>
 <script src="../assets/order.js"></script>
 </body>

@@ -38,6 +38,20 @@
   text-transform:uppercase; text-decoration:none; border:2px solid var(--ink);
   border-radius:100px; padding:.42rem .9rem; transition:background-color .2s,color .2s; }
 .others a:hover{ background:var(--ink); color:var(--cream); }
+.faq{ margin-top:clamp(2.5rem,5vw,4rem); }
+.faq h2{ font-size:clamp(1.5rem,3vw,2.1rem); margin-bottom:1.4rem; }
+.qa{ background:var(--white); border:3px solid var(--ink); border-left-width:9px;
+  border-left-color:var(--red); padding:1.1rem 1.2rem; margin-bottom:.8rem; }
+.qa:nth-child(3){ border-left-color:var(--teal); }
+.qa:nth-child(4){ border-left-color:var(--green); }
+.qa:nth-child(5){ border-left-color:var(--marigold); }
+.qa h3{ font-size:1.02rem; margin-bottom:.4rem; }
+.qa p{ font-size:.88rem; color:var(--ink-2); line-height:1.62; }
+.nap{ margin-top:2.4rem; padding:1.2rem 1.3rem; background:var(--white);
+  border:3px solid var(--ink); font-size:.87rem; line-height:1.7; }
+.nap b{ font-weight:700; }
+.nap a{ color:var(--red); text-decoration:none; border-bottom:2px solid currentColor; }
+.nap .small{ font-size:.76rem; color:var(--faint); margin-top:.4rem; }
 </style>
 <script type="application/ld+json">
 {
@@ -208,6 +222,66 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Siam Supply Co.",
+        "item": "https://siamsupply.sg/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Siang Pure wholesale",
+        "item": "https://siamsupply.sg/siang-pure-wholesale-singapore/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the minimum order for Siang Pure in Singapore?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "120 pcs. Minimums vary slightly by variant within the line. Above the minimum you can top up one supplier pack at a time, which is 12 to 60 pieces for this line, so you are never forced to buy a round number that does not suit your shelf."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does delivery take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "About five working days for anything we hold in stock, and up to four weeks for anything we bring in on the next purchase order from Hat Yai. We tell you which applies when we quote, before you commit. Delivery is to your door anywhere in Singapore and the cost is already inside the quoted price."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Siang Pure variants can I order?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "7 SKUs: Siang Pure ball tip, Formula 1 gold, 5 cc, Siang Pure ball tip, Formula 2 silver, 5 cc, Siang Pure balm red, 12 g, Siang Pure balm white, 12 g, Siang Pure inhaler Formula 2, Siang Pure oil Formula 1 red, 3 cc, Siang Pure oil Formula 2 white, 3 cc. All are supplied as manufactured and packed in Thailand, with the original Thai FDA registrations and manufacturer labelling intact."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I mix Siang Pure with other lines in one order?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Minimums apply per line, not per order, so you can combine any lines to build one shipment. Build the list on this site and send it in a single WhatsApp message and we quote the whole thing together, with stock status per line."
+        }
+      }
+    ]
+  }
+]
+</script>
 </head>
 <body>
 
@@ -256,7 +330,7 @@
       </div>
       <div class="plate">
         <div class="plate-row">
-          <img src="../assets/cut/siang-red-ball-tip-5cc.webp" style="--h:88;--z:2" alt="Siang Pure ball tip, Formula 1 gold, 5 cc">
+          <img src="../assets/cut/siang-red-ball-tip-5cc.webp" style="--h:88;--z:2" width="185" height="390" alt="Siang Pure ball tip, Formula 1 gold, 5 cc" decoding="async">
         </div>
         <p class="plate-foot"><b>Siang Pure Oils &amp; Balms</b></p>
       </div>
@@ -277,7 +351,7 @@
     </div>
     <div class="vlist">
           <div class="var" data-sku="Siang-Red Ball Tip 5cc">
-            <span class="vthumb"><img src="../assets/cut/siang-red-ball-tip-5cc.webp" alt="Siang Pure ball tip, Formula 1 gold, 5 cc" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-red-ball-tip-5cc-sm.webp" alt="Siang Pure ball tip, Formula 1 gold, 5 cc" width="76" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure ball tip, Formula 1 gold, 5 cc</b>
               <span class="meta"><span class="sku">Siang-Red Ball Tip 5cc</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -288,7 +362,7 @@
             </span>
           </div>
           <div class="var" data-sku="Siang-White Ball Tip 5cc">
-            <span class="vthumb"><img src="../assets/cut/siang-white-ball-tip-5cc.webp" alt="Siang Pure ball tip, Formula 2 silver, 5 cc" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-white-ball-tip-5cc-sm.webp" alt="Siang Pure ball tip, Formula 2 silver, 5 cc" width="76" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure ball tip, Formula 2 silver, 5 cc</b>
               <span class="meta"><span class="sku">Siang-White Ball Tip 5cc</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -299,7 +373,7 @@
             </span>
           </div>
           <div class="var" data-sku="Siang-Balm Red 12cc">
-            <span class="vthumb"><img src="../assets/cut/siang-balm-red-12cc.webp" alt="Siang Pure balm red, 12 g" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-balm-red-12cc-sm.webp" alt="Siang Pure balm red, 12 g" width="124" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure balm red, 12 g</b>
               <span class="meta"><span class="sku">Siang-Balm Red 12cc</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -310,7 +384,7 @@
             </span>
           </div>
           <div class="var" data-sku="Siang-Balm White 12cc">
-            <span class="vthumb"><img src="../assets/cut/siang-balm-white-12cc.webp" alt="Siang Pure balm white, 12 g" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-balm-white-12cc-sm.webp" alt="Siang Pure balm white, 12 g" width="125" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure balm white, 12 g</b>
               <span class="meta"><span class="sku">Siang-Balm White 12cc</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -321,7 +395,7 @@
             </span>
           </div>
           <div class="var" data-sku="Siang-F2 Inhaler">
-            <span class="vthumb"><img src="../assets/cut/siang-f2-inhaler.webp" alt="Siang Pure inhaler Formula 2" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-f2-inhaler-sm.webp" alt="Siang Pure inhaler Formula 2" width="44" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure inhaler Formula 2</b>
               <span class="meta"><span class="sku">Siang-F2 Inhaler</span></span></span>
             <span class="vmoq">120 pcs</span>
@@ -332,7 +406,7 @@
             </span>
           </div>
           <div class="var" data-sku="Siang-Red 3cc">
-            <span class="vthumb"><img src="../assets/cut/siang-red-3cc.webp" alt="Siang Pure oil Formula 1 red, 3 cc" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-red-3cc-sm.webp" alt="Siang Pure oil Formula 1 red, 3 cc" width="87" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure oil Formula 1 red, 3 cc</b>
               <span class="meta"><span class="sku">Siang-Red 3cc</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -343,7 +417,7 @@
             </span>
           </div>
           <div class="var" data-sku="Siang-White 3cc">
-            <span class="vthumb"><img src="../assets/cut/siang-white-3cc.webp" alt="Siang Pure oil Formula 2 white, 3 cc" loading="lazy" decoding="async"></span>
+            <span class="vthumb"><img src="../assets/cut/siang-white-3cc-sm.webp" alt="Siang Pure oil Formula 2 white, 3 cc" width="87" height="160" loading="lazy" decoding="async"></span>
             <span class="vn"><b>Siang Pure oil Formula 2 white, 3 cc</b>
               <span class="meta"><span class="sku">Siang-White 3cc</span></span></span>
             <span class="vmoq">144 pcs</span>
@@ -356,6 +430,22 @@
     </div>
     <p class="list-note">Trade prices are quoted per piece in Singapore dollars, landed and
     delivered. Payment on delivery as standard, Net 30 for institutional buyers.</p>
+
+    <div class="faq">
+      <h2>Siang Pure trade questions</h2>
+        <div class="qa"><h3>What is the minimum order for Siang Pure in Singapore?</h3><p>120 pcs. Minimums vary slightly by variant within the line. Above the minimum you can top up one supplier pack at a time, which is 12 to 60 pieces for this line, so you are never forced to buy a round number that does not suit your shelf.</p></div>
+        <div class="qa"><h3>How long does delivery take?</h3><p>About five working days for anything we hold in stock, and up to four weeks for anything we bring in on the next purchase order from Hat Yai. We tell you which applies when we quote, before you commit. Delivery is to your door anywhere in Singapore and the cost is already inside the quoted price.</p></div>
+        <div class="qa"><h3>Which Siang Pure variants can I order?</h3><p>7 SKUs: Siang Pure ball tip, Formula 1 gold, 5 cc, Siang Pure ball tip, Formula 2 silver, 5 cc, Siang Pure balm red, 12 g, Siang Pure balm white, 12 g, Siang Pure inhaler Formula 2, Siang Pure oil Formula 1 red, 3 cc, Siang Pure oil Formula 2 white, 3 cc. All are supplied as manufactured and packed in Thailand, with the original Thai FDA registrations and manufacturer labelling intact.</p></div>
+        <div class="qa"><h3>Can I mix Siang Pure with other lines in one order?</h3><p>Yes. Minimums apply per line, not per order, so you can combine any lines to build one shipment. Build the list on this site and send it in a single WhatsApp message and we quote the whole thing together, with stock status per line.</p></div>
+    </div>
+
+    <div class="nap">
+      <p><b>Siam Supply Co.</b>, trading name of Jiratham Pte. Ltd., UEN 202433113G</p>
+      <p>190 Woodlands Industrial Park E5, #03-08, Singapore 757516</p>
+      <p>WhatsApp <a href="https://wa.me/6586115854">+65 8611 5854</a> &nbsp;·&nbsp;
+         <a href="mailto:hlastore88@gmail.com">hlastore88@gmail.com</a></p>
+      <p class="small">Wholesale supply to trade buyers only. Delivered across Singapore.</p>
+    </div>
 
     <p class="crumb" style="margin-top:2.4rem">Other lines</p>
     <div class="others"><a href="../hong-thai-wholesale-singapore/">Hong Thai</a><a href="../poy-sian-wholesale-singapore/">Poy-Sian</a><a href="../pim-saen-wholesale-singapore/">Pim Saen</a><a href="../pastel-x8-wholesale-singapore/">Pastel X8</a><a href="../happy-noz-wholesale-singapore/">Happy Noz</a><a href="../namman-muay-wholesale-singapore/">Namman Muay</a><a href="../gumgig-pean-wholesale-singapore/">Gumgig Pean</a><a href="/#list">Full price list</a></div>
@@ -401,7 +491,7 @@
 <script>
 const SHOW_PRICES = false;
 const WA = "6586115854";
-const PRODUCTS = [{"sku": "Siang-Red Ball Tip 5cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure ball tip, Formula 1 gold, 5 cc", "desc": "Formula 1 gold, warming. Metal roller ball for temples, neck and joints.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "2.00", "img": "assets/cut/siang-red-ball-tip-5cc.webp", "iw": 185, "ih": 390, "flag": "New metal ball tip"}, {"sku": "Siang-White Ball Tip 5cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure ball tip, Formula 2 silver, 5 cc", "desc": "Formula 2 silver, cooling. Same metal ball tip, for headaches and insect bites.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "2.00", "img": "assets/cut/siang-white-ball-tip-5cc.webp", "iw": 185, "ih": 389, "flag": "New metal ball tip"}, {"sku": "Siang-Balm Red 12cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure balm red, 12 g", "desc": "Hot formula balm, 12 g jar. Note the manufacturer's own artwork calls this the yellow balm.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.50", "img": "assets/cut/siang-balm-red-12cc.webp", "iw": 189, "ih": 244, "flag": ""}, {"sku": "Siang-Balm White 12cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure balm white, 12 g", "desc": "Cool formula balm, 12 g jar. Around 20% menthol, for muscle relief.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.50", "img": "assets/cut/siang-balm-white-12cc.webp", "iw": 189, "ih": 242, "flag": ""}, {"sku": "Siang-F2 Inhaler", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure inhaler Formula 2", "desc": "Formula 2 as a pocket inhaler stick. The cheapest way into the Siang Pure name.", "moq": "120 pcs", "pack": 60, "moqPcs": 120, "unit": "box", "price": "1.00", "img": "assets/cut/siang-f2-inhaler.webp", "iw": 91, "ih": 332, "flag": ""}, {"sku": "Siang-Red 3cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure oil Formula 1 red, 3 cc", "desc": "Formula 1 in the classic 3 cc bottle. Warming, for aches, sprains and stiffness.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.10", "img": "assets/cut/siang-red-3cc.webp", "iw": 196, "ih": 360, "flag": ""}, {"sku": "Siang-White 3cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure oil Formula 2 white, 3 cc", "desc": "Formula 2 in the classic 3 cc bottle. Cooling, for headaches and blocked nose.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.10", "img": "assets/cut/siang-white-3cc.webp", "iw": 196, "ih": 360, "flag": ""}];
+const PRODUCTS = [{"sku": "Siang-Red Ball Tip 5cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure ball tip, Formula 1 gold, 5 cc", "desc": "Formula 1 gold, warming. Metal roller ball for temples, neck and joints.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "2.00", "img": "assets/cut/siang-red-ball-tip-5cc.webp", "iw": 185, "ih": 390, "thumb": "assets/cut/siang-red-ball-tip-5cc-sm.webp", "tw": 76, "th": 160, "flag": "New metal ball tip"}, {"sku": "Siang-White Ball Tip 5cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure ball tip, Formula 2 silver, 5 cc", "desc": "Formula 2 silver, cooling. Same metal ball tip, for headaches and insect bites.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "2.00", "img": "assets/cut/siang-white-ball-tip-5cc.webp", "iw": 185, "ih": 389, "thumb": "assets/cut/siang-white-ball-tip-5cc-sm.webp", "tw": 76, "th": 160, "flag": "New metal ball tip"}, {"sku": "Siang-Balm Red 12cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure balm red, 12 g", "desc": "Hot formula balm, 12 g jar. Note the manufacturer's own artwork calls this the yellow balm.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.50", "img": "assets/cut/siang-balm-red-12cc.webp", "iw": 189, "ih": 244, "thumb": "assets/cut/siang-balm-red-12cc-sm.webp", "tw": 124, "th": 160, "flag": ""}, {"sku": "Siang-Balm White 12cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure balm white, 12 g", "desc": "Cool formula balm, 12 g jar. Around 20% menthol, for muscle relief.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.50", "img": "assets/cut/siang-balm-white-12cc.webp", "iw": 189, "ih": 242, "thumb": "assets/cut/siang-balm-white-12cc-sm.webp", "tw": 125, "th": 160, "flag": ""}, {"sku": "Siang-F2 Inhaler", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure inhaler Formula 2", "desc": "Formula 2 as a pocket inhaler stick. The cheapest way into the Siang Pure name.", "moq": "120 pcs", "pack": 60, "moqPcs": 120, "unit": "box", "price": "1.00", "img": "assets/cut/siang-f2-inhaler.webp", "iw": 91, "ih": 332, "thumb": "assets/cut/siang-f2-inhaler-sm.webp", "tw": 44, "th": 160, "flag": ""}, {"sku": "Siang-Red 3cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure oil Formula 1 red, 3 cc", "desc": "Formula 1 in the classic 3 cc bottle. Warming, for aches, sprains and stiffness.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.10", "img": "assets/cut/siang-red-3cc.webp", "iw": 196, "ih": 360, "thumb": "assets/cut/siang-red-3cc-sm.webp", "tw": 87, "th": 160, "flag": ""}, {"sku": "Siang-White 3cc", "cat": "balms", "catLabel": "Balms & oils", "line": "Siang Pure", "lineName": "Siang Pure Oils & Balms", "lineDesc": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.", "name": "Siang Pure oil Formula 2 white, 3 cc", "desc": "Formula 2 in the classic 3 cc bottle. Cooling, for headaches and blocked nose.", "moq": "144 pcs", "pack": 12, "moqPcs": 144, "unit": "dozen", "price": "1.10", "img": "assets/cut/siang-white-3cc.webp", "iw": 196, "ih": 360, "thumb": "assets/cut/siang-white-3cc-sm.webp", "tw": 87, "th": 160, "flag": ""}];
 </script>
 <script src="../assets/order.js"></script>
 </body>
