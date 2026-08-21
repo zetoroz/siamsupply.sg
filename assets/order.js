@@ -89,11 +89,30 @@ function updateTray() {
     ? `https://wa.me/${WA}`
     : `https://wa.me/${WA}?text=${encodeURIComponent(orderText())}`;
 
+  /* fires the first time a line is added, so "built a list" is measurable
+     separately from "sent it" */
+  if (n > 0 && !updateTray._started) {
+    updateTray._started = true;
+    if (window.gtag) gtag("event", "order_started");
+  }
+
   $("#tray").classList.toggle("up", n > 0);
   document.body.style.paddingBottom = n > 0 ? "var(--tray)" : "0";
 }
 
+/* the conversion that matters: an order list actually sent */
 document.addEventListener("click", e => {
+  const send = e.target.closest("#traySend");
+  if (send && order.size && window.gtag) {
+    gtag("event", "order_sent", {
+      lines: order.size,
+      pieces: [...order.values()].reduce((a, b) => a + b, 0),
+      skus: [...order.keys()].join("|").slice(0, 100),
+    });
+  }
+  const wa = e.target.closest('a[href*="wa.me"]');
+  if (wa && !send && window.gtag) gtag("event", "whatsapp_click");
+
   const q = e.target.closest(".qty button");
   if (q) { step(q.closest(".var").dataset.sku, Number(q.dataset.step)); return; }
 

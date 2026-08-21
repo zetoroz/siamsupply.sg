@@ -854,6 +854,7 @@
 <link rel="preload" as="font" type="font/woff2" href="assets/fonts/fraunces-normal-300_900-latin.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="assets/fonts/archivo-normal-400_700-latin.woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
+<script src="assets/analytics.js" defer></script>
 </head>
 <body>
 
@@ -917,10 +918,12 @@
 
     <div class="ledger">
       <div class="ledger-in">
-        <dl><dt>Product lines</dt><dd id="statLines">11<small>Across four categories</small></dd></dl>
-        <dl><dt>SKUs stocked</dt><dd id="statSkus">35<small>Every one listed below</small></dd></dl>
+        <!-- GENERATED-STATS -->
+        <dl><dt>Product lines</dt><dd id="statLines">8<small>Across three categories</small></dd></dl>
+        <dl><dt>SKUs stocked</dt><dd id="statSkus">25<small>Every one listed below</small></dd></dl>
         <dl><dt>Order to doorstep</dt><dd>5 days<small>To 4 weeks, depending on stock</small></dd></dl>
-        <dl><dt>Lowest minimum</dt><dd>12 pcs<small>Namman Muay and Gumgig Pean</small></dd></dl>
+        <dl><dt>Lowest minimum</dt><dd>120 pcs<small>Pastel X8 Pocket Inhaler, Poy-Sian Mark II Inhaler and others</small></dd></dl>
+        <!-- END GENERATED-STATS -->
       </div>
     </div>
   </div>
@@ -941,11 +944,12 @@
     </div>
 
     <div class="filters" role="group" aria-label="Filter by category">
-      <button type="button" data-filter="all" aria-pressed="true">All lines</button>
+      <!-- GENERATED-FILTERS -->
+      <button type="button" data-filter="all" aria-pressed="true">All 25 SKUs</button>
       <button type="button" data-filter="inhalers" aria-pressed="false">Inhalers &amp; nasal</button>
       <button type="button" data-filter="balms" aria-pressed="false">Balms &amp; oils</button>
-      <button type="button" data-filter="powders" aria-pressed="false">Powders &amp; sprays</button>
       <button type="button" data-filter="remedies" aria-pressed="false">Remedies &amp; care</button>
+      <!-- END GENERATED-FILTERS -->
     </div>
 
     <div id="list-body">
