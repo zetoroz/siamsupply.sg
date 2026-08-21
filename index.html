@@ -106,6 +106,25 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
+              "name": "Hong Thai Green Formula 1, 25 g",
+              "sku": "TH-HT-G-25",
+              "category": "Inhalers & nasal",
+              "description": "Formula 1 green in the 25 g jar. The original strength and the one most buyers ask for by name.",
+              "image": "https://siamsupply.sg/assets/cut/th-ht-g-25.webp"
+            },
+            "eligibleQuantity": {
+              "@type": "QuantitativeValue",
+              "value": 600,
+              "unitText": "pieces"
+            },
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "SGD",
+            "businessFunction": "https://schema.org/Sell"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
               "name": "Hong Thai Green Formula 2, 40 g",
               "sku": "TH-HT-G-40",
               "category": "Inhalers & nasal",
@@ -149,24 +168,6 @@
               "category": "Inhalers & nasal",
               "description": "Yellow jar, 25 g. Milder scent than the green, popular with older customers.",
               "image": "https://siamsupply.sg/assets/cut/th-ht-y-25.webp"
-            },
-            "eligibleQuantity": {
-              "@type": "QuantitativeValue",
-              "value": 600,
-              "unitText": "pieces"
-            },
-            "availability": "https://schema.org/InStock",
-            "priceCurrency": "SGD",
-            "businessFunction": "https://schema.org/Sell"
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Hong Thai Green Formula 1, 25 g",
-              "sku": "TH-HT-G-25",
-              "category": "Inhalers & nasal",
-              "description": "Formula 1 green in the 25 g jar. The original strength and the one most buyers ask for by name."
             },
             "eligibleQuantity": {
               "@type": "QuantitativeValue",
@@ -436,7 +437,8 @@
               "name": "Pastel X8 pocket inhaler, translucent",
               "sku": "TH-PAST-T",
               "category": "Inhalers & nasal",
-              "description": "Translucent barrel. Same eight scents, slightly higher trade price."
+              "description": "Translucent barrel. Same eight scents, slightly higher trade price.",
+              "image": "https://siamsupply.sg/assets/cut/th-past-t.webp"
             },
             "eligibleQuantity": {
               "@type": "QuantitativeValue",
@@ -936,13 +938,19 @@ section{ padding-block:clamp(3.5rem,7vw,6rem); }
 
 .var{
   display:grid; align-items:center; gap:.85rem;
-  grid-template-columns:minmax(0,1fr) auto;
+  grid-template-columns:38px minmax(0,1fr) auto;
   padding:.6rem .7rem; border-radius:3px;
   transition:background-color .2s;
 }
-@media (min-width:900px){ .var{ grid-template-columns:minmax(0,1fr) 120px 150px; } }
+@media (min-width:900px){ .var{ grid-template-columns:44px minmax(0,1fr) 120px 150px; } }
 .var:hover{ background:var(--sand); }
 .var.picked{ background:color-mix(in srgb, var(--cc, var(--red)) 15%, transparent); }
+.vthumb{ width:38px; height:38px; border-radius:3px; background:var(--white);
+  border:1px solid var(--line); display:grid; place-items:center; overflow:hidden; }
+@media (min-width:900px){ .vthumb{ width:44px; height:44px; } }
+.vthumb img{ width:100%; height:100%; object-fit:contain; padding:6%; }
+.vthumb .na{ font-family:"DM Mono",monospace; font-size:.36rem; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--faint); text-align:center; line-height:1.3; }
 .var .vn{ min-width:0; }
 .var .vn b{ display:block; font-size:.89rem; font-weight:700; letter-spacing:-.004em; }
 .var .vn .meta{ display:flex; flex-wrap:wrap; gap:.35rem .7rem; align-items:center; margin-top:.15rem; }
@@ -1164,12 +1172,12 @@ footer .fnav a:hover{ color:var(--marigold); }
 <!-- GENERATED-LIST: photos/bin/export_site.py -->
       <div class="listing" data-cats="inhalers">
         <button class="lhead" type="button" aria-expanded="false" aria-controls="v0">
-          <span class="thumb"><img src="assets/cut/th-ht-g-40.webp" alt="Hong Thai Green Formula 2, 40 g" width="414" height="620" loading="lazy" decoding="async"></span>
+          <span class="thumb"><img src="assets/cut/th-ht-g-25.webp" alt="Hong Thai Green Formula 1, 25 g" width="489" height="620" loading="lazy" decoding="async"></span>
           <span class="lname">
             <h3>Hong Thai Compound Herb Inhaler</h3>
             <span class="sub">The classic screw-top herbal jar. Menthol, camphor, borneol and eucalyptus, in four formulas.</span>
           </span>
-          <span class="lvar">4 variants<small>3 photographed</small></span>
+          <span class="lvar">4 variants<small>4 photographed</small></span>
           <span class="lmoq">600 pcs<small>Min. order</small></span>
           <span class="lend">
             <span class="pill" data-pill>0</span>
@@ -1177,7 +1185,21 @@ footer .fnav a:hover{ color:var(--marigold); }
           </span>
         </button>
         <div class="vars" id="v0">
+            <div class="var" data-sku="TH-HT-G-25">
+              <span class="vthumb"><img src="assets/cut/th-ht-g-25.webp" alt="Hong Thai Green Formula 1, 25 g" loading="lazy" decoding="async"></span>
+              <span class="vn">
+                <b>Hong Thai Green Formula 1, 25 g</b>
+                <span class="meta"><span class="sku">TH-HT-G-25</span></span>
+              </span>
+              <span class="vmoq">600 pcs</span>
+              <span class="qty">
+                <button type="button" data-step="-1" aria-label="Remove one box of Hong Thai Green Formula 1, 25 g">&minus;</button>
+                <span class="v" data-v>0<em>pcs</em></span>
+                <button type="button" data-step="1" aria-label="Add one box of Hong Thai Green Formula 1, 25 g">+</button>
+              </span>
+            </div>
             <div class="var" data-sku="TH-HT-G-40">
+              <span class="vthumb"><img src="assets/cut/th-ht-g-40.webp" alt="Hong Thai Green Formula 2, 40 g" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Hong Thai Green Formula 2, 40 g</b>
                 <span class="meta"><span class="sku">TH-HT-G-40</span></span>
@@ -1190,6 +1212,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HT-W-25">
+              <span class="vthumb"><img src="assets/cut/th-ht-w-25.webp" alt="Hong Thai White, 25 g" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Hong Thai White, 25 g</b>
                 <span class="meta"><span class="sku">TH-HT-W-25</span></span>
@@ -1202,6 +1225,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HT-Y-25">
+              <span class="vthumb"><img src="assets/cut/th-ht-y-25.webp" alt="Hong Thai Yellow, 25 g" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Hong Thai Yellow, 25 g</b>
                 <span class="meta"><span class="sku">TH-HT-Y-25</span></span>
@@ -1211,18 +1235,6 @@ footer .fnav a:hover{ color:var(--marigold); }
                 <button type="button" data-step="-1" aria-label="Remove one box of Hong Thai Yellow, 25 g">&minus;</button>
                 <span class="v" data-v>0<em>pcs</em></span>
                 <button type="button" data-step="1" aria-label="Add one box of Hong Thai Yellow, 25 g">+</button>
-              </span>
-            </div>
-            <div class="var" data-sku="TH-HT-G-25">
-              <span class="vn">
-                <b>Hong Thai Green Formula 1, 25 g</b>
-                <span class="meta"><span class="sku">TH-HT-G-25</span><span class="tag soon">Photo pending</span></span>
-              </span>
-              <span class="vmoq">600 pcs</span>
-              <span class="qty">
-                <button type="button" data-step="-1" aria-label="Remove one box of Hong Thai Green Formula 1, 25 g">&minus;</button>
-                <span class="v" data-v>0<em>pcs</em></span>
-                <button type="button" data-step="1" aria-label="Add one box of Hong Thai Green Formula 1, 25 g">+</button>
               </span>
             </div>
         </div>
@@ -1243,6 +1255,7 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v1">
             <div class="var" data-sku="TH-PS">
+              <span class="vthumb"><img src="assets/cut/th-ps.webp" alt="Poy-Sian Mark II 2-in-1 inhaler" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Poy-Sian Mark II 2-in-1 inhaler</b>
                 <span class="meta"><span class="sku">TH-PS</span><span class="tag">Best seller</span></span>
@@ -1272,6 +1285,7 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v2">
             <div class="var" data-sku="TH-Pim-Roller">
+              <span class="vthumb"><img src="assets/cut/th-pim-roller.webp" alt="Pim Saen Balm Roller" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Pim Saen Balm Roller</b>
                 <span class="meta"><span class="sku">TH-Pim-Roller</span></span>
@@ -1284,6 +1298,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-Pim-Oil">
+              <span class="vthumb"><img src="assets/cut/th-pim-oil.webp" alt="Pim Saen balm oil, liquid" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Pim Saen balm oil, liquid</b>
                 <span class="meta"><span class="sku">TH-Pim-Oil</span></span>
@@ -1296,6 +1311,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-Pim-Cotton">
+              <span class="vthumb"><img src="assets/cut/th-pim-cotton.webp" alt="Pim Saen cotton-wick inhaler" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Pim Saen cotton-wick inhaler</b>
                 <span class="meta"><span class="sku">TH-Pim-Cotton</span></span>
@@ -1325,6 +1341,7 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v3">
             <div class="var" data-sku="Siang-Red Ball Tip 5cc">
+              <span class="vthumb"><img src="assets/cut/siang-red-ball-tip-5cc.webp" alt="Siang Pure ball tip, Formula 1 gold, 5 cc" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure ball tip, Formula 1 gold, 5 cc</b>
                 <span class="meta"><span class="sku">Siang-Red Ball Tip 5cc</span><span class="tag">New metal ball tip</span></span>
@@ -1337,6 +1354,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="Siang-White Ball Tip 5cc">
+              <span class="vthumb"><img src="assets/cut/siang-white-ball-tip-5cc.webp" alt="Siang Pure ball tip, Formula 2 silver, 5 cc" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure ball tip, Formula 2 silver, 5 cc</b>
                 <span class="meta"><span class="sku">Siang-White Ball Tip 5cc</span><span class="tag">New metal ball tip</span></span>
@@ -1349,6 +1367,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="Siang-Balm Red 12cc">
+              <span class="vthumb"><img src="assets/cut/siang-balm-red-12cc.webp" alt="Siang Pure balm red, 12 g" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure balm red, 12 g</b>
                 <span class="meta"><span class="sku">Siang-Balm Red 12cc</span></span>
@@ -1361,6 +1380,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="Siang-Balm White 12cc">
+              <span class="vthumb"><img src="assets/cut/siang-balm-white-12cc.webp" alt="Siang Pure balm white, 12 g" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure balm white, 12 g</b>
                 <span class="meta"><span class="sku">Siang-Balm White 12cc</span></span>
@@ -1373,6 +1393,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="Siang-F2 Inhaler">
+              <span class="vthumb"><img src="assets/cut/siang-f2-inhaler.webp" alt="Siang Pure inhaler Formula 2" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure inhaler Formula 2</b>
                 <span class="meta"><span class="sku">Siang-F2 Inhaler</span></span>
@@ -1385,6 +1406,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="Siang-Red 3cc">
+              <span class="vthumb"><img src="assets/cut/siang-red-3cc.webp" alt="Siang Pure oil Formula 1 red, 3 cc" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure oil Formula 1 red, 3 cc</b>
                 <span class="meta"><span class="sku">Siang-Red 3cc</span></span>
@@ -1397,6 +1419,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="Siang-White 3cc">
+              <span class="vthumb"><img src="assets/cut/siang-white-3cc.webp" alt="Siang Pure oil Formula 2 white, 3 cc" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Siang Pure oil Formula 2 white, 3 cc</b>
                 <span class="meta"><span class="sku">Siang-White 3cc</span></span>
@@ -1412,12 +1435,12 @@ footer .fnav a:hover{ color:var(--marigold); }
       </div>
       <div class="listing" data-cats="inhalers">
         <button class="lhead" type="button" aria-expanded="false" aria-controls="v4">
-          <span class="thumb"><img src="assets/cut/th-past-s.webp" alt="Pastel X8 pocket inhaler, solid" width="620" height="328" loading="lazy" decoding="async"></span>
+          <span class="thumb"><img src="assets/cut/th-past-s.webp" alt="Pastel X8 pocket inhaler, solid" width="620" height="265" loading="lazy" decoding="async"></span>
           <span class="lname">
             <h3>Pastel X8 Pocket Inhaler</h3>
             <span class="sub">Slim pocket inhaler in eight scents, in solid and translucent barrels.</span>
           </span>
-          <span class="lvar">2 variants<small>1 photographed</small></span>
+          <span class="lvar">2 variants<small>2 photographed</small></span>
           <span class="lmoq">120 pcs<small>Min. order</small></span>
           <span class="lend">
             <span class="pill" data-pill>0</span>
@@ -1426,6 +1449,7 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v4">
             <div class="var" data-sku="TH-PAST-S">
+              <span class="vthumb"><img src="assets/cut/th-past-s.webp" alt="Pastel X8 pocket inhaler, solid" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Pastel X8 pocket inhaler, solid</b>
                 <span class="meta"><span class="sku">TH-PAST-S</span></span>
@@ -1438,9 +1462,10 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-PAST-T">
+              <span class="vthumb"><img src="assets/cut/th-past-t.webp" alt="Pastel X8 pocket inhaler, translucent" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Pastel X8 pocket inhaler, translucent</b>
-                <span class="meta"><span class="sku">TH-PAST-T</span><span class="tag soon">Photo pending</span></span>
+                <span class="meta"><span class="sku">TH-PAST-T</span></span>
               </span>
               <span class="vmoq">120 pcs</span>
               <span class="qty">
@@ -1467,6 +1492,7 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v5">
             <div class="var" data-sku="TH-HAPPYNOZ-Blue/Anti-Bacterial">
+              <span class="vthumb"><img src="assets/cut/th-happynoz-blue-anti-bacterial.webp" alt="Happy Noz Blue, anti-bacterial" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Happy Noz Blue, anti-bacterial</b>
                 <span class="meta"><span class="sku">TH-HAPPYNOZ-Blue/Anti-Bacterial</span></span>
@@ -1479,6 +1505,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HAPPYNOZ-Bug Guard">
+              <span class="vthumb"><img src="assets/cut/th-happynoz-bug-guard.webp" alt="Happy Noz Bug Guard" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Happy Noz Bug Guard</b>
                 <span class="meta"><span class="sku">TH-HAPPYNOZ-Bug Guard</span></span>
@@ -1491,6 +1518,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HAPPYNOZ-Green/Anti-Virus">
+              <span class="vthumb"><img src="assets/cut/th-happynoz-green-anti-virus.webp" alt="Happy Noz Green, anti-virus" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Happy Noz Green, anti-virus</b>
                 <span class="meta"><span class="sku">TH-HAPPYNOZ-Green/Anti-Virus</span></span>
@@ -1503,6 +1531,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HAPPYNOZ-Orange/PM2.5 Detox">
+              <span class="vthumb"><img src="assets/cut/th-happynoz-orange-pm2-5-detox.webp" alt="Happy Noz Orange, PM2.5 detox" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Happy Noz Orange, PM2.5 detox</b>
                 <span class="meta"><span class="sku">TH-HAPPYNOZ-Orange/PM2.5 Detox</span></span>
@@ -1515,6 +1544,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HAPPYNOZ-Original">
+              <span class="vthumb"><img src="assets/cut/th-happynoz-original.webp" alt="Happy Noz Original (Purple)" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Happy Noz Original (Purple)</b>
                 <span class="meta"><span class="sku">TH-HAPPYNOZ-Original</span></span>
@@ -1527,6 +1557,7 @@ footer .fnav a:hover{ color:var(--marigold); }
               </span>
             </div>
             <div class="var" data-sku="TH-HAPPYNOZ-Yellow/Anti-Cough">
+              <span class="vthumb"><img src="assets/cut/th-happynoz-yellow-anti-cough.webp" alt="Happy Noz Yellow, anti-cough" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Happy Noz Yellow, anti-cough</b>
                 <span class="meta"><span class="sku">TH-HAPPYNOZ-Yellow/Anti-Cough</span></span>
@@ -1548,7 +1579,7 @@ footer .fnav a:hover{ color:var(--marigold); }
             <span class="sub">The Thai boxing camp standard. Pre-training warm-up oil for gyms, physios and sports retail.</span>
           </span>
           <span class="lvar">1 variant<small>1 photographed</small></span>
-          <span class="lmoq">12 pcs<small>Min. order</small></span>
+          <span class="lmoq">144 pcs<small>Min. order</small></span>
           <span class="lend">
             <span class="pill" data-pill>0</span>
             <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
@@ -1556,11 +1587,12 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v6">
             <div class="var" data-sku="TH-MUAYOIL">
+              <span class="vthumb"><img src="assets/cut/th-muayoil.webp" alt="Namman Muay Thai boxing liniment, 15 cc" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Namman Muay Thai boxing liniment, 15 cc</b>
                 <span class="meta"><span class="sku">TH-MUAYOIL</span></span>
               </span>
-              <span class="vmoq">12 pcs</span>
+              <span class="vmoq">144 pcs</span>
               <span class="qty">
                 <button type="button" data-step="-1" aria-label="Remove one dozen of Namman Muay Thai boxing liniment, 15 cc">&minus;</button>
                 <span class="v" data-v>0<em>pcs</em></span>
@@ -1577,7 +1609,7 @@ footer .fnav a:hover{ color:var(--marigold); }
             <span class="sub">Sharp herbal throat lozenge with a loyal following. A counter-top impulse product.</span>
           </span>
           <span class="lvar">1 variant<small>1 photographed</small></span>
-          <span class="lmoq">12 pcs<small>Min. order</small></span>
+          <span class="lmoq">144 pcs<small>Min. order</small></span>
           <span class="lend">
             <span class="pill" data-pill>0</span>
             <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
@@ -1585,11 +1617,12 @@ footer .fnav a:hover{ color:var(--marigold); }
         </button>
         <div class="vars" id="v7">
             <div class="var" data-sku="Gumgig Pean">
+              <span class="vthumb"><img src="assets/cut/gumgig-pean.webp" alt="Gumgig Pean herbal lozenges" loading="lazy" decoding="async"></span>
               <span class="vn">
                 <b>Gumgig Pean herbal lozenges</b>
                 <span class="meta"><span class="sku">Gumgig Pean</span></span>
               </span>
-              <span class="vmoq">12 pcs</span>
+              <span class="vmoq">144 pcs</span>
               <span class="qty">
                 <button type="button" data-step="-1" aria-label="Remove one dozen of Gumgig Pean herbal lozenges">&minus;</button>
                 <span class="v" data-v>0<em>pcs</em></span>
@@ -1679,18 +1712,18 @@ footer .fnav a:hover{ color:var(--marigold); }
         <table class="tbl">
           <caption>Minimum order quantity by line</caption>
           <thead><tr><th scope="col">Line</th><th scope="col">MOQ</th></tr></thead>
+          <!-- GENERATED-TERMS -->
           <tbody>
-            <tr><td>Hong Thai compound herb inhaler</td><td>600 pcs</td></tr>
-            <tr><td>Happy Noz nasal stickers</td><td>200 boxes</td></tr>
-            <tr><td>Siang Pure oils, balms and ball tips</td><td>144 pcs</td></tr>
-            <tr><td>Pim Saen roller, oil and cotton-wick</td><td>144 pcs</td></tr>
-            <tr><td>Poy-Sian Mark II inhaler</td><td>120 pcs</td></tr>
-            <tr><td>Pastel X8 pocket inhaler</td><td>120 pcs</td></tr>
-            <tr><td>Siang Pure inhaler Formula 2</td><td>120 pcs</td></tr>
-            <tr><td>Namman Muay liniment 15 cc</td><td>12 pcs</td></tr>
-            <tr><td>Gumgig Pean herbal lozenges</td><td>12 pcs</td></tr>
-            <tr><td>Kamillosan ointment</td><td>1 piece</td></tr>
+            <tr><td>Hong Thai Compound Herb Inhaler</td><td>600 pcs</td></tr>
+            <tr><td>Happy Noz Nasal Stickers</td><td>200 boxes</td></tr>
+            <tr><td>Pim Saen Balm</td><td>144 pcs</td></tr>
+            <tr><td>Namman Muay Boxing Liniment</td><td>144 pcs</td></tr>
+            <tr><td>Gumgig Pean Herbal Lozenges</td><td>144 pcs</td></tr>
+            <tr><td>Poy-Sian Mark II Inhaler</td><td>120 pcs</td></tr>
+            <tr><td>Siang Pure Oils &amp; Balms</td><td>120 pcs / 144 pcs</td></tr>
+            <tr><td>Pastel X8 Pocket Inhaler</td><td>120 pcs</td></tr>
           </tbody>
+          <!-- END GENERATED-TERMS -->
         </table>
       </div>
       <div class="notes">
@@ -2018,6 +2051,25 @@ const PRODUCTS = [
     "flag": ""
   },
   {
+    "sku": "TH-HT-G-25",
+    "cat": "inhalers",
+    "catLabel": "Inhalers & nasal",
+    "line": "Hong Thai",
+    "lineName": "Hong Thai Compound Herb Inhaler",
+    "lineDesc": "The classic screw-top herbal jar. Menthol, camphor, borneol and eucalyptus, in four formulas.",
+    "name": "Hong Thai Green Formula 1, 25 g",
+    "desc": "Formula 1 green in the 25 g jar. The original strength and the one most buyers ask for by name.",
+    "moq": "600 pcs",
+    "pack": 600,
+    "moqPcs": 600,
+    "unit": "box",
+    "price": "2.00",
+    "img": "assets/cut/th-ht-g-25.webp",
+    "iw": 489,
+    "ih": 620,
+    "flag": ""
+  },
+  {
     "sku": "TH-HT-G-40",
     "cat": "inhalers",
     "catLabel": "Inhalers & nasal",
@@ -2090,7 +2142,26 @@ const PRODUCTS = [
     "price": "1.10",
     "img": "assets/cut/th-past-s.webp",
     "iw": 620,
-    "ih": 328,
+    "ih": 265,
+    "flag": ""
+  },
+  {
+    "sku": "TH-PAST-T",
+    "cat": "inhalers",
+    "catLabel": "Inhalers & nasal",
+    "line": "Pastel",
+    "lineName": "Pastel X8 Pocket Inhaler",
+    "lineDesc": "Slim pocket inhaler in eight scents, in solid and translucent barrels.",
+    "name": "Pastel X8 pocket inhaler, translucent",
+    "desc": "Translucent barrel. Same eight scents, slightly higher trade price.",
+    "moq": "120 pcs",
+    "pack": 60,
+    "moqPcs": 120,
+    "unit": "box",
+    "price": "1.30",
+    "img": "assets/cut/th-past-t.webp",
+    "iw": 183,
+    "ih": 619,
     "flag": ""
   },
   {
@@ -2178,9 +2249,9 @@ const PRODUCTS = [
     "lineDesc": "Sharp herbal throat lozenge with a loyal following. A counter-top impulse product.",
     "name": "Gumgig Pean herbal lozenges",
     "desc": "Sharp herbal throat lozenge with a loyal following. Counter-top impulse product.",
-    "moq": "12 pcs",
+    "moq": "144 pcs",
     "pack": 12,
-    "moqPcs": 12,
+    "moqPcs": 144,
     "unit": "dozen",
     "price": "2.40",
     "img": "assets/cut/gumgig-pean.webp",
@@ -2197,52 +2268,14 @@ const PRODUCTS = [
     "lineDesc": "The Thai boxing camp standard. Pre-training warm-up oil for gyms, physios and sports retail.",
     "name": "Namman Muay Thai boxing liniment, 15 cc",
     "desc": "The Thai boxing camp standard. Pre-training warm-up oil that sells itself to gyms, physios and sports retail.",
-    "moq": "12 pcs",
+    "moq": "144 pcs",
     "pack": 12,
-    "moqPcs": 12,
+    "moqPcs": 144,
     "unit": "dozen",
     "price": "1.70",
     "img": "assets/cut/th-muayoil.webp",
     "iw": 132,
     "ih": 377,
-    "flag": ""
-  },
-  {
-    "sku": "TH-HT-G-25",
-    "cat": "inhalers",
-    "catLabel": "Inhalers & nasal",
-    "line": "Hong Thai",
-    "lineName": "Hong Thai Compound Herb Inhaler",
-    "lineDesc": "The classic screw-top herbal jar. Menthol, camphor, borneol and eucalyptus, in four formulas.",
-    "name": "Hong Thai Green Formula 1, 25 g",
-    "desc": "Formula 1 green in the 25 g jar. The original strength and the one most buyers ask for by name.",
-    "moq": "600 pcs",
-    "pack": 600,
-    "moqPcs": 600,
-    "unit": "box",
-    "price": "2.00",
-    "img": "",
-    "iw": 0,
-    "ih": 0,
-    "flag": ""
-  },
-  {
-    "sku": "TH-PAST-T",
-    "cat": "inhalers",
-    "catLabel": "Inhalers & nasal",
-    "line": "Pastel",
-    "lineName": "Pastel X8 Pocket Inhaler",
-    "lineDesc": "Slim pocket inhaler in eight scents, in solid and translucent barrels.",
-    "name": "Pastel X8 pocket inhaler, translucent",
-    "desc": "Translucent barrel. Same eight scents, slightly higher trade price.",
-    "moq": "120 pcs",
-    "pack": 60,
-    "moqPcs": 120,
-    "unit": "box",
-    "price": "1.30",
-    "img": "",
-    "iw": 0,
-    "ih": 0,
     "flag": ""
   }
 ];
