@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI crawlers: allowed, so the range can be cited in AI answers
+User-agent: GPTBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://siamsupply.sg/sitemap.xml
