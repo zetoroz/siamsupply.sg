@@ -149,5 +149,8 @@ $("#trayClear") && $("#trayClear").addEventListener("click", () => {
 
 syncStats();
 updateTray();
-$("#waPlain").href = `https://wa.me/${WA}?text=${encodeURIComponent("Hi, I'd like a trade quotation from Siam Supply Co.")}`;
-$("#waTel").href = `https://wa.me/${WA}`;
+// the contact block only exists on the front page, so these are absent on the
+// brand and category pages and the bare assignment threw on every one of them
+const waPlain = $("#waPlain"), waTel = $("#waTel");
+if (waPlain) waPlain.href = `https://wa.me/${WA}?text=${encodeURIComponent("Hi, I'd like a trade quotation from Siam Supply Co.")}`;
+if (waTel) waTel.href = `https://wa.me/${WA}`;

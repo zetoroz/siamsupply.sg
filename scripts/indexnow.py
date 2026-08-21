@@ -4,9 +4,12 @@ Ping IndexNow (Bing, Copilot, Yandex) with the live URLs.
 Runs in CI after deploy. Reads the published URLs from sitemap.xml and the
 IndexNow key from the <key>.txt file at the site root. No login required.
 """
-import re, glob, json, urllib.request
+import os, re, glob, json, urllib.request
 
-ROOT = __file__.rsplit("/scripts/", 1)[0]
+# the repo root, whatever directory the script is invoked from. Deriving it by
+# splitting __file__ on "/scripts/" gave back the relative path unchanged when
+# CI ran "python3 scripts/indexnow.py", so nothing was ever found.
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOST = "siamsupply.sg"
 
 def main():

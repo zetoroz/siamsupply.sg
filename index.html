@@ -26,818 +26,144 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WholesaleStore",
-  "name": "Siam Supply Co.",
-  "legalName": "Jiratham Pte. Ltd.",
-  "url": "https://siamsupply.sg",
-  "description": "Singapore trade importer and wholesaler of Thai inhalers, balms, medicated oils and household remedies, supplied by the carton to retailers, community clubs, corporate buyers and event organisers.",
-  "identifier": {
-    "@type": "PropertyValue",
-    "name": "UEN",
-    "value": "202433113G"
-  },
-  "foundingDate": "2024-08-13",
-  "telephone": "+65 8611 5854",
-  "email": "hlastore88@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "190 Woodlands Industrial Park E5, #03-08",
-    "addressLocality": "Singapore",
-    "postalCode": "757516",
-    "addressCountry": "SG"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "Singapore"
-  },
-  "brand": [
+  "@graph": [
     {
-      "@type": "Brand",
-      "name": "Gumgig Pean"
+      "@type": "WholesaleStore",
+      "@id": "https://siamsupply.sg/#store",
+      "name": "Siam Supply Co.",
+      "legalName": "Jiratham Pte. Ltd.",
+      "url": "https://siamsupply.sg/",
+      "image": "https://siamsupply.sg/assets/og.jpg",
+      "description": "Singapore trade importer and wholesaler of Thai inhalers, balms, medicated oils and household remedies, supplied by the carton to retailers, community clubs, corporate buyers and event organisers.",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "UEN",
+        "value": "202433113G"
+      },
+      "foundingDate": "2024-08-13",
+      "telephone": "+65 8611 5854",
+      "email": "hlastore88@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "190 Woodlands Industrial Park E5, #03-08",
+        "addressLocality": "Singapore",
+        "postalCode": "757516",
+        "addressCountry": "SG"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Singapore"
+      },
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Gumgig Pean"
+        },
+        {
+          "@type": "Brand",
+          "name": "Happy Noz"
+        },
+        {
+          "@type": "Brand",
+          "name": "Hong Thai"
+        },
+        {
+          "@type": "Brand",
+          "name": "Namman Muay"
+        },
+        {
+          "@type": "Brand",
+          "name": "Pastel"
+        },
+        {
+          "@type": "Brand",
+          "name": "Pim Saen"
+        },
+        {
+          "@type": "Brand",
+          "name": "Poy-Sian"
+        },
+        {
+          "@type": "Brand",
+          "name": "Siang Pure"
+        }
+      ]
     },
     {
-      "@type": "Brand",
-      "name": "Happy Noz"
-    },
-    {
-      "@type": "Brand",
-      "name": "Hong Thai"
-    },
-    {
-      "@type": "Brand",
-      "name": "Namman Muay"
-    },
-    {
-      "@type": "Brand",
-      "name": "Pastel"
-    },
-    {
-      "@type": "Brand",
-      "name": "Pim Saen"
-    },
-    {
-      "@type": "Brand",
-      "name": "Poy-Sian"
-    },
-    {
-      "@type": "Brand",
-      "name": "Siang Pure"
+      "@type": "ItemList",
+      "@id": "https://siamsupply.sg/#range",
+      "name": "Thai wholesale trade range",
+      "description": "25 SKUs across 8 brand lines, supplied to Singapore trade buyers by the carton.",
+      "numberOfItems": 8,
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hong Thai Compound Herb Inhaler",
+          "url": "https://siamsupply.sg/hong-thai-wholesale-singapore/",
+          "description": "The classic screw-top herbal jar. Menthol, camphor, borneol and eucalyptus, in four formulas.",
+          "image": "https://siamsupply.sg/assets/cut/th-ht-g-25.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Poy-Sian Mark II Inhaler",
+          "url": "https://siamsupply.sg/poy-sian-wholesale-singapore/",
+          "description": "Two-in-one nasal stick: inhale one end, roll the oil from the other. The cheapest impulse buy in the range.",
+          "image": "https://siamsupply.sg/assets/cut/th-ps.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pim Saen Balm",
+          "url": "https://siamsupply.sg/pim-saen-wholesale-singapore/",
+          "description": "Peppermint Field style nasal relief, in roll-on, liquid oil and cotton-wick formats.",
+          "image": "https://siamsupply.sg/assets/cut/th-pim-roller.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Siang Pure Oils & Balms",
+          "url": "https://siamsupply.sg/siang-pure-wholesale-singapore/",
+          "description": "Bertram's full range. Formula 1 warms, Formula 2 cools, across ball tips, oils, balms and an inhaler.",
+          "image": "https://siamsupply.sg/assets/cut/siang-red-ball-tip-5cc.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Pastel X8 Pocket Inhaler",
+          "url": "https://siamsupply.sg/pastel-x8-wholesale-singapore/",
+          "description": "Slim pocket inhaler in eight scents, in solid and translucent barrels.",
+          "image": "https://siamsupply.sg/assets/cut/th-past-s.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Happy Noz Nasal Stickers",
+          "url": "https://siamsupply.sg/happy-noz-wholesale-singapore/",
+          "description": "Onion-based sticker patches for children, sold by the box of six, in six variants.",
+          "image": "https://siamsupply.sg/assets/cut/th-happynoz-blue-anti-bacterial.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Namman Muay Boxing Liniment",
+          "url": "https://siamsupply.sg/namman-muay-wholesale-singapore/",
+          "description": "The Thai boxing camp standard. Pre-training warm-up oil for gyms, physios and sports retail.",
+          "image": "https://siamsupply.sg/assets/cut/th-muayoil.webp"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Gumgig Pean Herbal Lozenges",
+          "url": "https://siamsupply.sg/gumgig-pean-wholesale-singapore/",
+          "description": "Sharp herbal throat lozenge with a loyal following. A counter-top impulse product.",
+          "image": "https://siamsupply.sg/assets/cut/gumgig-pean.webp"
+        }
+      ]
     }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Thai wholesale trade range",
-    "itemListElement": [
-      {
-        "@type": "OfferCatalog",
-        "name": "Hong Thai Compound Herb Inhaler",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Hong Thai Green Formula 1, 25 g",
-            "sku": "TH-HT-G-25",
-            "category": "Inhalers & nasal",
-            "description": "Formula 1 green in the 25 g jar. The original strength and the one most buyers ask for by name.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Hong Thai"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-ht-g-25.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 600,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Hong Thai Green Formula 2, 40 g",
-            "sku": "TH-HT-G-40",
-            "category": "Inhalers & nasal",
-            "description": "Formula 2 green in the larger 40 g jar. Best value per gram in the Hong Thai range.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Hong Thai"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-ht-g-40.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 600,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Hong Thai White, 25 g",
-            "sku": "TH-HT-W-25",
-            "category": "Inhalers & nasal",
-            "description": "White jar, 25 g. The gentlest of the three 25 g formulas.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Hong Thai"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-ht-w-25.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 600,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Hong Thai Yellow, 25 g",
-            "sku": "TH-HT-Y-25",
-            "category": "Inhalers & nasal",
-            "description": "Yellow jar, 25 g. Milder scent than the green, popular with older customers.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Hong Thai"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-ht-y-25.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 600,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Poy-Sian Mark II Inhaler",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Poy-Sian Mark II 2-in-1 inhaler",
-            "sku": "TH-PS",
-            "category": "Inhalers & nasal",
-            "description": "Two-in-one nasal stick: inhale one end, roll the oil from the other. The cheapest impulse buy in the range.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Poy-Sian"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-ps.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 120,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Pim Saen Balm",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Pim Saen Balm Roller",
-            "sku": "TH-Pim-Roller",
-            "category": "Inhalers & nasal",
-            "description": "Roll-on balm stick. The cleanest format for a handbag or a school bag.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Pim Saen"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-pim-roller.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Pim Saen balm oil, liquid",
-            "sku": "TH-Pim-Oil",
-            "category": "Inhalers & nasal",
-            "description": "The liquid balm oil, twin pack. Apply by hand or dab onto a tissue.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Pim Saen"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-pim-oil.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Pim Saen cotton-wick inhaler",
-            "sku": "TH-Pim-Cotton",
-            "category": "Inhalers & nasal",
-            "description": "Cotton-wick inhaler jar. The traditional format and the strongest of the three.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Pim Saen"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-pim-cotton.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Siang Pure Oils & Balms",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Siang Pure ball tip, Formula 1 gold, 5 cc",
-            "sku": "Siang-Red Ball Tip 5cc",
-            "category": "Balms & oils",
-            "description": "Formula 1 gold, warming. Metal roller ball for temples, neck and joints.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-red-ball-tip-5cc.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Siang Pure ball tip, Formula 2 silver, 5 cc",
-            "sku": "Siang-White Ball Tip 5cc",
-            "category": "Balms & oils",
-            "description": "Formula 2 silver, cooling. Same metal ball tip, for headaches and insect bites.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-white-ball-tip-5cc.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Siang Pure balm red, 12 g",
-            "sku": "Siang-Balm Red 12cc",
-            "category": "Balms & oils",
-            "description": "Hot formula balm, 12 g jar. Note the manufacturer's own artwork calls this the yellow balm.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-balm-red-12cc.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Siang Pure balm white, 12 g",
-            "sku": "Siang-Balm White 12cc",
-            "category": "Balms & oils",
-            "description": "Cool formula balm, 12 g jar. Around 20% menthol, for muscle relief.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-balm-white-12cc.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Siang Pure inhaler Formula 2",
-            "sku": "Siang-F2 Inhaler",
-            "category": "Balms & oils",
-            "description": "Formula 2 as a pocket inhaler stick. The cheapest way into the Siang Pure name.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-f2-inhaler.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 120,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Siang Pure oil Formula 1 red, 3 cc",
-            "sku": "Siang-Red 3cc",
-            "category": "Balms & oils",
-            "description": "Formula 1 in the classic 3 cc bottle. Warming, for aches, sprains and stiffness.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-red-3cc.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Siang Pure oil Formula 2 white, 3 cc",
-            "sku": "Siang-White 3cc",
-            "category": "Balms & oils",
-            "description": "Formula 2 in the classic 3 cc bottle. Cooling, for headaches and blocked nose.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Siang Pure"
-            },
-            "image": "https://siamsupply.sg/assets/cut/siang-white-3cc.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Pastel X8 Pocket Inhaler",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Pastel X8 pocket inhaler, solid",
-            "sku": "TH-PAST-S",
-            "category": "Inhalers & nasal",
-            "description": "Solid barrel. Eight scents across the range.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Pastel"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-past-s.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 120,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Pastel X8 pocket inhaler, translucent",
-            "sku": "TH-PAST-T",
-            "category": "Inhalers & nasal",
-            "description": "Translucent barrel. Same eight scents, slightly higher trade price.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Pastel"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-past-t.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 120,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Happy Noz Nasal Stickers",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Happy Noz Blue, anti-bacterial",
-            "sku": "TH-HAPPYNOZ-Blue/Anti-Bacterial",
-            "category": "Inhalers & nasal",
-            "description": "Blue variant, sold by the manufacturer as anti-bacterial, with peppermint.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Happy Noz"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-happynoz-blue-anti-bacterial.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 200,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Happy Noz Bug Guard",
-            "sku": "TH-HAPPYNOZ-Bug Guard",
-            "category": "Inhalers & nasal",
-            "description": "Bug Guard variant of the same sticker patch, for outdoor use.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Happy Noz"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-happynoz-bug-guard.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 200,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Happy Noz Green, anti-virus",
-            "sku": "TH-HAPPYNOZ-Green/Anti-Virus",
-            "category": "Inhalers & nasal",
-            "description": "Green variant, sold by the manufacturer as anti-virus, with turmeric.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Happy Noz"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-happynoz-green-anti-virus.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 200,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Happy Noz Orange, PM2.5 detox",
-            "sku": "TH-HAPPYNOZ-Orange/PM2.5 Detox",
-            "category": "Inhalers & nasal",
-            "description": "Orange variant, sold by the manufacturer as PM2.5 detox, with clove oil.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Happy Noz"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-happynoz-orange-pm2-5-detox.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 200,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Happy Noz Original (Purple)",
-            "sku": "TH-HAPPYNOZ-Original",
-            "category": "Inhalers & nasal",
-            "description": "Original variant, red onion. The baseline sticker in the range.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Happy Noz"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-happynoz-original.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 200,
-                "unitText": "pieces"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Happy Noz Yellow, anti-cough",
-            "sku": "TH-HAPPYNOZ-Yellow/Anti-Cough",
-            "category": "Inhalers & nasal",
-            "description": "Yellow variant, sold by the manufacturer as anti-cough, with lavender.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Happy Noz"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-happynoz-yellow-anti-cough.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 200,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Namman Muay Boxing Liniment",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Namman Muay Thai boxing liniment, 15 cc",
-            "sku": "TH-MUAYOIL",
-            "category": "Remedies & care",
-            "description": "The Thai boxing camp standard. Pre-training warm-up oil that sells itself to gyms, physios and sports retail.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Namman Muay"
-            },
-            "image": "https://siamsupply.sg/assets/cut/th-muayoil.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "Gumgig Pean Herbal Lozenges",
-        "itemListElement": [
-          {
-            "@type": "Product",
-            "name": "Gumgig Pean herbal lozenges",
-            "sku": "Gumgig Pean",
-            "category": "Remedies & care",
-            "description": "Sharp herbal throat lozenge with a loyal following. Counter-top impulse product.",
-            "brand": {
-              "@type": "Brand",
-              "name": "Gumgig Pean"
-            },
-            "image": "https://siamsupply.sg/assets/cut/gumgig-pean.webp",
-            "offers": {
-              "@type": "Offer",
-              "priceCurrency": "SGD",
-              "availability": "https://schema.org/InStock",
-              "businessFunction": "https://schema.org/Sell",
-              "seller": {
-                "@type": "Organization",
-                "name": "Siam Supply Co."
-              },
-              "eligibleCustomerType": "https://schema.org/Reseller",
-              "eligibleQuantity": {
-                "@type": "QuantitativeValue",
-                "value": 144,
-                "unitText": "pieces"
-              }
-            }
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }
 </script>
 <!-- END GENERATED-LD -->
@@ -941,6 +267,10 @@
       <button type="button" data-filter="remedies" aria-pressed="false">Remedies &amp; care</button>
       <!-- END GENERATED-FILTERS -->
     </div>
+
+    <!-- GENERATED-CATNAV -->
+    <div class="catnav"><span class="lbl">Browse by format</span><a href="/thai-inhaler-wholesale-singapore/">Thai inhalers</a><a href="/thai-medicated-oil-wholesale-singapore/">Thai oils &amp; balms</a></div>
+    <!-- END GENERATED-CATNAV -->
 
     <div id="list-body">
 <!-- GENERATED-LIST: photos/bin/export_site.py -->

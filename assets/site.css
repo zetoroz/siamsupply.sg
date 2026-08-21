@@ -240,6 +240,17 @@ section{ padding-block:clamp(3.5rem,7vw,6rem); }
   scrollbar-width:none;
 }
 .filters::-webkit-scrollbar{ display:none; }
+
+/* real links to the category landing pages, under the JS filter pills. The
+   pills only filter this page; these are the pages a search engine can reach. */
+.catnav{ display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; padding:1rem 0 1.2rem; }
+.catnav .lbl{ font-family:"DM Mono",monospace; font-size:.6rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--faint); margin-right:.2rem; }
+.catnav a{ font-family:"DM Mono",monospace; font-size:.65rem; letter-spacing:.12em;
+  text-transform:uppercase; text-decoration:none; color:var(--ink);
+  border:2px solid var(--ink); border-radius:100px; padding:.44rem .9rem;
+  white-space:nowrap; transition:background-color .2s, color .2s; }
+.catnav a:hover{ background:var(--ink); color:var(--cream); }
 .filters button{
   font-family:"DM Mono",monospace; font-size:.65rem; letter-spacing:.13em; text-transform:uppercase;
   background:var(--white); border:2px solid var(--ink); color:var(--ink);
