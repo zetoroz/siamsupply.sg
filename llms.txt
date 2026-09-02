@@ -7,21 +7,23 @@
 ## What we sell
 
 <!-- GENERATED-WHAT-WE-SELL -->
-36 SKUs across 13 brand lines, all imported from Thailand:
+40 SKUs across 15 brand lines, all imported from Thailand:
 
 - **Hong Thai Compound Herb Inhaler**, 3 SKUs. Minimum 600 pcs. Hong Thai Green Formula 1, 25 g (TH-HT-G-25); Hong Thai White, 25 g (TH-HT-W-25); Hong Thai Yellow, 25 g (TH-HT-Y-25).
 - **Poy-Sian Mark II Inhaler**, 1 SKU. Minimum 120 pcs. Poy-Sian Mark II 2-in-1 inhaler (TH-PS).
 - **Pim Saen Balm**, 3 SKUs. Minimum 144 pcs. Pim Saen Balm Roller (TH-Pim-Roller); Pim Saen balm oil, liquid (TH-Pim-Oil); Pim Saen cotton-wick inhaler (TH-Pim-Cotton).
-- **Siang Pure Oils & Balms**, 7 SKUs. Minimum 120 pcs or 144 pcs. Siang Pure ball tip, Formula 1 gold, 5 cc (Siang-Red Ball Tip 5cc); Siang Pure ball tip, Formula 2 silver, 5 cc (Siang-White Ball Tip 5cc); Siang Pure balm red, 12 g (Siang-Balm Red 12cc); Siang Pure balm white, 12 g (Siang-Balm White 12cc); Siang Pure inhaler Formula 2 (Siang-F2 Inhaler); Siang Pure oil Formula 1 red, 3 cc (Siang-Red 3cc); Siang Pure oil Formula 2 white, 3 cc (Siang-White 3cc).
+- **Peppermint Field 2-in-1 Inhaler**, 3 SKUs. Minimum 120 pcs or 144 pcs. Peppermint Field 2-in-1 inhaler, white original, 2 ml (TH-PMF-W); Peppermint Field Black Series inhaler, 2 ml (TH-PMF-BK); Peppermint Field Black Series roll-on, 3 cc (TH-PMF-B-Roller).
+- **Siang Pure Oils & Balms**, 8 SKUs. Minimum 120 pcs or 144 pcs. Siang Pure ball tip, Eucalyptus scent, 5 cc (Siang-Euca White Ball Tip 5cc); Siang Pure ball tip, Formula 1 gold, 5 cc (Siang-Red Ball Tip 5cc); Siang Pure ball tip, Formula 2 silver, 5 cc (Siang-White Ball Tip 5cc); Siang Pure balm red, 12 g (Siang-Balm Red 12cc); Siang Pure balm white, 12 g (Siang-Balm White 12cc); Siang Pure inhaler Formula 2 (Siang-F2 Inhaler); Siang Pure oil Formula 1 red, 3 cc (Siang-Red 3cc); Siang Pure oil Formula 2 white, 3 cc (Siang-White 3cc).
 - **Pastel X8 Pocket Inhaler**, 2 SKUs. Minimum 120 pcs. Pastel X8 pocket inhaler, solid (TH-PAST-S); Pastel X8 pocket inhaler, translucent (TH-PAST-T).
 - **Happy Noz Nasal Stickers**, 6 SKUs. Minimum 200 boxes. Happy Noz Blue, anti-bacterial (TH-HAPPYNOZ-Blue/Anti-Bacterial); Happy Noz Bug Guard (TH-HAPPYNOZ-Bug Guard); Happy Noz Green, anti-virus (TH-HAPPYNOZ-Green/Anti-Virus); Happy Noz Orange, PM2.5 detox (TH-HAPPYNOZ-Orange/PM2.5 Detox); Happy Noz Original (Purple) (TH-HAPPYNOZ-Original); Happy Noz Yellow, anti-cough (TH-HAPPYNOZ-Yellow/Anti-Cough).
-- **Namman Muay Boxing Liniment**, 1 SKU. Minimum 144 pcs. Namman Muay Thai boxing liniment, 15 cc (TH-MUAYOIL).
-- **Gumgig Pean Herbal Lozenges**, 1 SKU. Minimum 144 pcs. Gumgig Pean herbal lozenges (Gumgig Pean).
 - **Pastel Balm Stick**, 3 SKUs. Minimum 144 pcs. Pastel Balm Stick, mango, 8 g (TH-Past-Balm-MANGO); Pastel Balm Stick, mixed berry, 8 g (TH-Past-Balm-MB); Pastel Balm Stick, orange oil, 8 g (TH-Past-Balm-ORANGE).
 - **Pastel Jelly Balm**, 1 SKU. Minimum 144 pcs. Pastel Jelly Balm, assorted colours, 15 g (TH-PAST-JELLY).
-- **Peppermint Field 2-in-1 Inhaler**, 3 SKUs. Minimum 120 pcs or 144 pcs. Peppermint Field 2-in-1 inhaler, white original, 2 ml (TH-PMF-W); Peppermint Field Black Series inhaler, 2 ml (TH-PMF-BK); Peppermint Field Black Series roll-on, 3 cc (TH-PMF-B-Roller).
+- **Namman Muay Boxing Liniment**, 1 SKU. Minimum 144 pcs. Namman Muay Thai boxing liniment, 15 cc (TH-MUAYOIL).
+- **Cheng Cheng Herbal Oil**, 2 SKUs. Minimum 72 pcs. Cheng Cheng Oil, eucalyptus, 23 cc (TH-CHENGCHENG-EUCALYPTUS); Cheng Cheng Oil, herbal balm menthol-peppermint, 23 cc (TH-CHENGCHENG-MENTHOL).
+- **Cheng Cim Herbal Oil**, 1 SKU. Minimum 72 pcs. Cheng Cim Oil, yellow herbal, 23 cc (TH-CHENGCIM-YELLOW).
 - **SOFFELL Mosquito Repellent**, 1 SKU. Minimum 144 pcs. SOFFELL mosquito repellent spray, floral, 30 ml (TH-SOFFELL).
 - **Thai Herbal Soap 160 g**, 4 SKUs. Minimum 72 pcs. Thai herbal soap, anti-bacterial ginger, 160 g (TH-SOAP-GINGER); Thai herbal soap, orange papaya, 160 g (TH-SOAP-PAPAYA); Thai herbal soap, rice milk, 160 g (TH-SOAP-RICE); Thai herbal soap, tamarind, 160 g (TH-SOAP-TAMR).
+- **Gumgig Pean Herbal Lozenges**, 1 SKU. Minimum 144 pcs. Gumgig Pean herbal lozenges (Gumgig Pean).
 <!-- END GENERATED-WHAT-WE-SELL -->
 
 ## How we trade
@@ -52,6 +54,8 @@
 <!-- GENERATED-PAGES -->
 - [Thai Wholesale Singapore](https://siamsupply.sg/)
 - [About Siam Supply Co.](https://siamsupply.sg/about/)
+- [Cheng Cheng Oil Wholesale Singapore](https://siamsupply.sg/cheng-cheng-oil-wholesale-singapore/)
+- [Cheng Cim Oil Wholesale Singapore](https://siamsupply.sg/cheng-cim-oil-wholesale-singapore/)
 - [Gumgig Pean Wholesale Singapore](https://siamsupply.sg/gumgig-pean-wholesale-singapore/)
 - [Happy Noz Wholesale Singapore](https://siamsupply.sg/happy-noz-wholesale-singapore/)
 - [Hong Thai Wholesale Singapore](https://siamsupply.sg/hong-thai-wholesale-singapore/)
