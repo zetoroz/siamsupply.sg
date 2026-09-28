@@ -1,14 +1,14 @@
 /* Self-hosted fonts. No third-party request, no FOUT from a cold CDN. */
 @font-face{ font-family:'Fraunces'; font-style:normal; font-weight:300 900; font-display:swap;
-  src:url('assets/fonts/fraunces-normal-300_900-latin.woff2') format('woff2'); }
+  src:url('fonts/fraunces-normal-300_900-latin.woff2') format('woff2'); }
 @font-face{ font-family:'Fraunces'; font-style:italic; font-weight:300 900; font-display:swap;
-  src:url('assets/fonts/fraunces-italic-300_900-latin.woff2') format('woff2'); }
+  src:url('fonts/fraunces-italic-300_900-latin.woff2') format('woff2'); }
 @font-face{ font-family:'Archivo'; font-style:normal; font-weight:400 700; font-display:swap;
-  src:url('assets/fonts/archivo-normal-400_700-latin.woff2') format('woff2'); }
+  src:url('fonts/archivo-normal-400_700-latin.woff2') format('woff2'); }
 @font-face{ font-family:'DM Mono'; font-style:normal; font-weight:400; font-display:swap;
-  src:url('assets/fonts/dm-mono-normal-400-latin.woff2') format('woff2'); }
+  src:url('fonts/dm-mono-normal-400-latin.woff2') format('woff2'); }
 @font-face{ font-family:'DM Mono'; font-style:normal; font-weight:500; font-display:swap;
-  src:url('assets/fonts/dm-mono-normal-500-latin.woff2') format('woff2'); }
+  src:url('fonts/dm-mono-normal-500-latin.woff2') format('woff2'); }
 
 /* ============================================================
    SIAM SUPPLY CO.  Trade name for JIRATHAM PTE. LTD. (UEN 202433113G)
