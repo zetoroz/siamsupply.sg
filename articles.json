@@ -1,5 +1,5 @@
 {
-  "_note": "Editorial calendar for /guides/. scripts/publish_due.py reads this on every Pages build and on the daily 09:30 SGT cron: a guide is indexable, listed and in sitemap.xml only once its date <= today in Singapore. Edit a date here to reschedule. Content lives in WHOLESALE/guides/<slug>.html; rebuild with python3 photos/bin/build.py. A guide may only link to guides with an earlier date (articles.py checks).",
+  "_note": "Editorial calendar for /guides/. scripts/publish_due.py reads this on every Pages build and on the daily 09:30 SGT cron: a guide is indexable, listed and in sitemap.xml only once its date <= today in Singapore. Edit a date here to reschedule. Content lives in WHOLESALE/guides/<slug>.html; rebuild with python3 photos/bin/build.py. A guide may only link to guides with an earlier date (articles.py checks). \"shopee\" lists [item id, label] on the SimpleDay shop for readers buying single pieces; leave it off trade-only guides.",
   "articles": [
     {
       "slug": "what-is-yadom-thai-herbal-inhaler",
@@ -21,6 +21,24 @@
         [
           "thai-inhaler-wholesale-singapore",
           "Thai inhaler range"
+        ]
+      ],
+      "shopee": [
+        [
+          "22357011154",
+          "Hong Thai"
+        ],
+        [
+          "23757006104",
+          "Poy-Sian Mark II"
+        ],
+        [
+          "23656034396",
+          "Pastel X8"
+        ],
+        [
+          "17796807749",
+          "Peppermint Field"
         ]
       ]
     },
@@ -45,6 +63,12 @@
           "siang-pure-wholesale-singapore",
           "Siang Pure trade range"
         ]
+      ],
+      "shopee": [
+        [
+          "27824149199",
+          "Siang Pure oils and balms"
+        ]
       ]
     },
     {
@@ -66,6 +90,16 @@
         [
           "thai-medicated-oil-wholesale-singapore",
           "Thai oils and balms"
+        ]
+      ],
+      "shopee": [
+        [
+          "27824149199",
+          "Siang Pure balms"
+        ],
+        [
+          "25465312223",
+          "Pastel Balm Stick"
         ]
       ]
     },
@@ -90,6 +124,32 @@
           "thai-inhaler-wholesale-singapore",
           "Thai inhaler range"
         ]
+      ],
+      "shopee": [
+        [
+          "22357011154",
+          "Hong Thai"
+        ],
+        [
+          "23757006104",
+          "Poy-Sian Mark II"
+        ],
+        [
+          "23656034396",
+          "Pastel X8"
+        ],
+        [
+          "17796807749",
+          "Peppermint Field"
+        ],
+        [
+          "44901437712",
+          "Peppermint Field Black"
+        ],
+        [
+          "23663918542",
+          "Pim Saen"
+        ]
       ]
     },
     {
@@ -111,6 +171,12 @@
         [
           "happy-noz-wholesale-singapore",
           "Happy Noz by the box"
+        ]
+      ],
+      "shopee": [
+        [
+          "26458171673",
+          "Happy Noz, all colours"
         ]
       ]
     },
@@ -135,6 +201,20 @@
           "thai-medicated-oil-wholesale-singapore",
           "Thai oils and balms"
         ]
+      ],
+      "shopee": [
+        [
+          "27824149199",
+          "Siang Pure"
+        ],
+        [
+          "26076881256",
+          "Namman Muay"
+        ],
+        [
+          "23663918542",
+          "Pim Saen"
+        ]
       ]
     },
     {
@@ -156,6 +236,12 @@
         [
           "soffell-wholesale-singapore",
           "SOFFELL by the carton"
+        ]
+      ],
+      "shopee": [
+        [
+          "24578612735",
+          "SOFFELL 30 ml"
         ]
       ]
     },
