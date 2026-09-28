@@ -1,0 +1,45 @@
+name: Deploy site to GitHub Pages
+
+# Replaces the branch build so scheduled guides can go live with no commit:
+# publish_due.py releases every guide whose date in articles.json has arrived,
+# on each push and on the daily cron. Same pattern as rkec.sg.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 01:30 UTC is 09:30 SGT
+    - cron: '30 1 * * *'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Release scheduled guides
+        run: python3 scripts/publish_due.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Retry deploy if the Pages backend hiccuped
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+      - name: Notify IndexNow (Bing, Copilot, Yandex)
+        run: python3 scripts/indexnow.py
+        continue-on-error: true

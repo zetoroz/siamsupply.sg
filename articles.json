@@ -1,0 +1,189 @@
+{
+  "_note": "Editorial calendar for /guides/. scripts/publish_due.py reads this on every Pages build and on the daily 09:30 SGT cron: a guide is indexable, listed and in sitemap.xml only once its date <= today in Singapore. Edit a date here to reschedule. Content lives in WHOLESALE/guides/<slug>.html; rebuild with python3 photos/bin/build.py. A guide may only link to guides with an earlier date (articles.py checks).",
+  "articles": [
+    {
+      "slug": "what-is-yadom-thai-herbal-inhaler",
+      "title": "What is yadom? The Thai herbal inhaler, explained",
+      "seo_title": "What Is Yadom? The Thai Herbal Inhaler Explained",
+      "desc": "What a Thai inhaler is, what is inside one, the four formats you will see on the shelf, how to use one properly, and who should not.",
+      "category": "Thai inhalers",
+      "date": "2026-09-29",
+      "hero": "hero.jpg",
+      "hero_alt": "Six Thai herbal inhalers: Hong Thai jar, Poy-Sian, Pastel X8, Peppermint Field, Pim Saen cotton-wick jar and Siang Pure inhaler",
+      "keywords": [
+        "yadom",
+        "thai inhaler",
+        "thai herbal inhaler",
+        "thai nasal inhaler",
+        "how to use nasal inhaler"
+      ],
+      "trade_links": [
+        [
+          "thai-inhaler-wholesale-singapore",
+          "Thai inhaler range"
+        ]
+      ]
+    },
+    {
+      "slug": "siang-pure-oil-formula-1-vs-2",
+      "title": "Siang Pure Oil: Formula 1 vs Formula 2, and which format to buy",
+      "seo_title": "Siang Pure Oil Formula 1 vs 2: The Difference Explained",
+      "desc": "Formula 1 warms, Formula 2 cools. What the maker says is in each, how the ball tip, plain oil, balm and inhaler differ, and which one people usually mean.",
+      "category": "Medicated oils",
+      "date": "2026-10-02",
+      "hero": "hero.jpg",
+      "hero_alt": "Siang Pure range: Formula 1 and Formula 2 ball tips, 3 cc oils, red and white balms and the Formula 2 inhaler",
+      "keywords": [
+        "siang pure oil",
+        "siang pure oil formula 1",
+        "siang pure oil formula 2",
+        "siang pure inhaler",
+        "siang pure balm"
+      ],
+      "trade_links": [
+        [
+          "siang-pure-wholesale-singapore",
+          "Siang Pure trade range"
+        ]
+      ]
+    },
+    {
+      "slug": "red-vs-white-balm-difference",
+      "title": "Tiger Balm red vs white, and Thai balms: what the colour tells you",
+      "seo_title": "Red vs White Balm: Tiger Balm and Siang Pure Compared",
+      "desc": "Red balms warm and white balms cool, and the reason is on the label. Tiger Balm and Siang Pure compared, plus which to use when.",
+      "category": "Balms",
+      "date": "2026-10-06",
+      "hero": "hero.jpg",
+      "hero_alt": "Siang Pure red balm and white balm side by side",
+      "keywords": [
+        "tiger balm red vs white",
+        "red vs white balm",
+        "thai balm",
+        "siang pure balm"
+      ],
+      "trade_links": [
+        [
+          "thai-medicated-oil-wholesale-singapore",
+          "Thai oils and balms"
+        ]
+      ]
+    },
+    {
+      "slug": "thai-inhaler-brands-compared",
+      "title": "Hong Thai, Poy-Sian, Pastel or Peppermint Field: which Thai inhaler?",
+      "seo_title": "Thai Inhaler Brands Compared: Hong Thai vs Poy-Sian vs Pastel",
+      "desc": "Six Thai inhaler brands side by side: format, strength, what is inside, and who each one suits. From an importer that stocks all six.",
+      "category": "Thai inhalers",
+      "date": "2026-10-09",
+      "hero": "hero.jpg",
+      "hero_alt": "Hong Thai jar, Poy-Sian Mark II, Pastel X8, Peppermint Field white and Black Series, Pim Saen and Siang Pure inhalers lined up",
+      "keywords": [
+        "poy sian inhaler",
+        "pastel inhaler",
+        "hong thai inhaler",
+        "peppermint field inhaler",
+        "best thai inhaler"
+      ],
+      "trade_links": [
+        [
+          "thai-inhaler-wholesale-singapore",
+          "Thai inhaler range"
+        ]
+      ]
+    },
+    {
+      "slug": "happy-noz-onion-sticker-colours",
+      "title": "Happy Noz onion stickers: every colour, explained",
+      "seo_title": "Happy Noz Onion Sticker Colours Explained: Which One to Use",
+      "desc": "Purple, blue, green, yellow, orange and Bug Guard: what each Happy Noz sticker adds, where the patch goes, and how it differs from an inhaler.",
+      "category": "Children",
+      "date": "2026-10-13",
+      "hero": "hero.jpg",
+      "hero_alt": "Six Happy Noz onion sticker boxes: purple original, blue, green, yellow, orange and Bug Guard",
+      "keywords": [
+        "happy noz",
+        "happy noz patch",
+        "onion sticker",
+        "happy noz colours"
+      ],
+      "trade_links": [
+        [
+          "happy-noz-wholesale-singapore",
+          "Happy Noz by the box"
+        ]
+      ]
+    },
+    {
+      "slug": "thai-vs-chinese-medicated-oil",
+      "title": "Thai vs Chinese medicated oil: Siang Pure, Eagle Brand and Kwan Loong",
+      "seo_title": "Thai vs Chinese Medicated Oil: What Is Actually Different",
+      "desc": "Why Thai oils smell of clove and Chinese oils of wintergreen. Siang Pure, Eagle Brand and Kwan Loong labels compared, and which suits which job.",
+      "category": "Medicated oils",
+      "date": "2026-10-16",
+      "hero": "hero.jpg",
+      "hero_alt": "Thai medicated oils: Siang Pure ball tips and oils, Cheng Cheng roll-ons, Pim Saen and Namman Muay",
+      "keywords": [
+        "medicated oil",
+        "medicated oil singapore",
+        "thai medicated oil",
+        "eagle brand medicated oil",
+        "kwan loong oil"
+      ],
+      "trade_links": [
+        [
+          "thai-medicated-oil-wholesale-singapore",
+          "Thai oils and balms"
+        ]
+      ]
+    },
+    {
+      "slug": "soffell-mosquito-repellent-singapore",
+      "title": "SOFFELL mosquito repellent: what is in it and how to use it in Singapore",
+      "seo_title": "SOFFELL Mosquito Repellent: DEET Content and How to Use It",
+      "desc": "SOFFELL is a 13% DEET lotion spray from Thailand. What that means against Aedes mosquitoes, how HealthHub says to apply a repellent, and who should not use it.",
+      "category": "Repellents",
+      "date": "2026-10-20",
+      "hero": "hero.jpg",
+      "hero_alt": "SOFFELL mosquito repellent spray, 30 ml floral",
+      "keywords": [
+        "soffell mosquito repellent",
+        "soffell",
+        "mosquito repellent singapore",
+        "dengue mosquito repellent"
+      ],
+      "trade_links": [
+        [
+          "soffell-wholesale-singapore",
+          "SOFFELL by the carton"
+        ]
+      ]
+    },
+    {
+      "slug": "goodie-bag-ideas-singapore",
+      "title": "Goodie bag ideas that people actually keep: a Singapore buyer's guide",
+      "seo_title": "Goodie Bag Ideas Singapore: Useful Items People Keep",
+      "desc": "What goes into a goodie bag that gets used rather than binned, sized and priced for community clubs, corporate packs, marathons and school events.",
+      "category": "For buyers",
+      "date": "2026-10-23",
+      "hero": "hero.jpg",
+      "hero_alt": "Goodie bag items laid out: Pastel X8 inhalers, Pastel balm sticks, Poy-Sian inhaler, SOFFELL spray and Gumgig Pean lozenges",
+      "keywords": [
+        "goodie bag ideas",
+        "goodie bag singapore",
+        "corporate goodie bag",
+        "event goodie bag"
+      ],
+      "trade_links": [
+        [
+          "pastel-x8-wholesale-singapore",
+          "Pastel X8"
+        ],
+        [
+          "soffell-wholesale-singapore",
+          "SOFFELL"
+        ]
+      ]
+    }
+  ]
+}
